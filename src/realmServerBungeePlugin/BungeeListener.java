@@ -16,11 +16,11 @@ import net.md_5.bungee.api.plugin.Listener;
 import net.md_5.bungee.event.EventHandler;
 
 public class BungeeListener implements Listener {
-  BungeeController plugin;
+  RealmServerBungeePlugin plugin;
   
   ConcurrentHashMap<String, JSONArray> playersJSON = new ConcurrentHashMap<>();
 
-  public BungeeListener(BungeeController bungeeController) {
+  public BungeeListener(RealmServerBungeePlugin bungeeController) {
     this.plugin = bungeeController;
   }
   

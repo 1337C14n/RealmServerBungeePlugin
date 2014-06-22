@@ -10,11 +10,11 @@ import packets.RequestServer;
 import realmConnection.RealmServerConnector;
 
 
-public class BungeeRealmConnector extends RealmServerConnector {
+public class BungeeRealmServerConnector extends RealmServerConnector {
 
   private static ConcurrentHashMap<String, NetworkWaitObject> wait;
   
-  public BungeeRealmConnector(String address, int port) {
+  public BungeeRealmServerConnector(String address, int port) {
     super(address, port);
     wait = new ConcurrentHashMap<>();
   }
