@@ -1,0 +1,4 @@
+name: RealmServerBungeePlugin
+main: realmServerBungeePlugin.RealmServerBungeePlugin
+version: 0.0.0001
+author: x4n4th
